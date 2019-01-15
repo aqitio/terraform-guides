@@ -15,7 +15,7 @@ variable "gcp_project" {
 
 variable "cluster_name" {
   description = "Name of the K8s cluster"
-  default = "Ryan-Cluster"
+  default = "evil-man"
 }
 
 variable "initial_node_count" {
@@ -25,12 +25,12 @@ variable "initial_node_count" {
 
 variable "master_username" {
   description = "Username for accessing the Kubernetes master endpoint"
-  default = "k8smaster"
+  default = "clustermaster"
 }
 
 variable "master_password" {
   description = "Password for accessing the Kubernetes master endpoint"
-  default = "k8smasterk8smaster"
+  default = "clustermasterpassword"
 }
 
 variable "node_machine_type" {
